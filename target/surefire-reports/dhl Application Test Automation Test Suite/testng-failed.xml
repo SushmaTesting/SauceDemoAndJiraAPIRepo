@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [dhl Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="common.extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="API Test Cases(failed)">
+    <classes>
+      <class name="api.JiraTest">
+        <methods>
+          <include name="jiraTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- api.JiraTest -->
+    </classes>
+  </test> <!-- API Test Cases(failed) -->
+</suite> <!-- Failed suite [dhl Application Test Automation Test Suite] -->

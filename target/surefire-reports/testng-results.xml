@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="dhl Application Test Automation Test Suite" duration-ms="22958" started-at="2023-06-02T02:17:26Z" finished-at="2023-06-02T02:17:49Z">
+    <groups>
+    </groups>
+    <test name="Sauce Demo Test Cases" duration-ms="22958" started-at="2023-06-02T02:17:26Z" finished-at="2023-06-02T02:17:49Z">
+      <class name="selenium.SauceDemoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium.SauceDemoTest@cb5822]" name="setUp" is-config="true" duration-ms="10235" started-at="2023-06-02T07:47:27Z" finished-at="2023-06-02T07:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginSauceDemoPage(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:selenium.SauceDemoTest@cb5822]" name="loginSauceDemoPage" duration-ms="11336" started-at="2023-06-02T07:47:37Z" data-provider="readTestData" finished-at="2023-06-02T07:47:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sauce Labs Fleece Jacket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSauceDemoPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.SauceDemoTest@cb5822]" name="tearDown" is-config="true" duration-ms="1008" started-at="2023-06-02T07:47:48Z" finished-at="2023-06-02T07:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.SauceDemoTest -->
+    </test> <!-- Sauce Demo Test Cases -->
+  </suite> <!-- dhl Application Test Automation Test Suite -->
+</testng-results>
