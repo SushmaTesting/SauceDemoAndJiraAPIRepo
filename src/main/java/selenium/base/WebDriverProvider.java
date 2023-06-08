@@ -58,8 +58,8 @@ public class WebDriverProvider {
             driver = new FirefoxDriver(new FirefoxOptions(capabilities.merge(getOptions())));
         } else if (browserName.equalsIgnoreCase("browserStack")) {
             DesiredCapabilities caps = new DesiredCapabilities();
-            String USERNAME = (System.getenv("BROWSERSTACK_USERNAME") != null) ? System.getenv("BROWSERSTACK_USERNAME") : "sushmamb_gHKhkV";
-            String AUTOMATE_KEY = (System.getenv("BROWSERSTACK_ACCESS_KEY") != null) ? System.getenv("BROWSERSTACK_ACCESS_KEY") : "Dy5xAEZz6bmVugYUySZB";
+            String USERNAME = (System.getenv("BROWSERSTACK_USERNAME") != null) ? System.getenv("BROWSERSTACK_USERNAME") : "sushma";
+            String AUTOMATE_KEY = (System.getenv("BROWSERSTACK_ACCESS_KEY") != null) ? System.getenv("BROWSERSTACK_ACCESS_KEY") : "sadsdfsdg";
             String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
             caps.setCapability("os", "Windows");
             caps.setCapability("os_version", "10");
