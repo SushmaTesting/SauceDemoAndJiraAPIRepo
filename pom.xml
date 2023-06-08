@@ -11,7 +11,6 @@
 
     <name>assignment</name>
 
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
@@ -58,13 +57,11 @@
             <version>2.20.0</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>3.16-beta2</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -76,11 +73,13 @@
             <artifactId>poi-ooxml-schemas</artifactId>
             <version>3.9</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-scratchpad</artifactId>
             <version>3.9</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>ooxml-schemas</artifactId>
@@ -98,7 +97,6 @@
             <version>3.9</version>
         </dependency>
 
-
         <dependency>
             <groupId>com.relevantcodes</groupId>
             <artifactId>extentreports</artifactId>
@@ -111,7 +109,6 @@
             <version>5.3.3</version>
         </dependency>
 
-
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
@@ -122,7 +119,6 @@
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest</artifactId>
             <version>2.2</version>
-
         </dependency>
 
         <dependency>
@@ -130,16 +126,19 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.14.3</version>
         </dependency>
+
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
             <version>2.14.3</version>
         </dependency>
+
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
             <version>2.14.3</version>
         </dependency>
+
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>

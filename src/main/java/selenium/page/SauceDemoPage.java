@@ -11,7 +11,6 @@ import java.util.List;
 
 public class SauceDemoPage {
     PerformActions performActions;
-
     public SauceDemoPage(WebDriver driver) {
         performActions = new PerformActions();
         PageFactory.initElements(driver, this);
